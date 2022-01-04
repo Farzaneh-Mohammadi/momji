@@ -1,0 +1,101 @@
+
+.carousel {
+    position: absolute;
+
+    left: 55%;
+margin-left: -100px;
+
+top: 45%;
+    margin-top: 10px ;
+    
+    width: 12rem;
+    perspective: 50rem;
+}
+
+.carousel__cards {
+    /* position: relative; */
+    width: 15rem;
+    height: 10rem;
+    transform-style: preserve-3d;
+    transform: translateZ(-25rem) rotateX(-10deg);
+    transition: transform 0.7s ease-in;
+
+
+}
+
+.carousel__img {
+    width: 60%;
+}
+
+.carousel__card {
+    width: 100%;
+    position: absolute;
+
+}
+
+.carousel__card:nth-child(1) {
+    transform: rotateY(0deg) translateZ(8rem);
+}
+
+.carousel__card:nth-child(2) {
+    transform: rotateY(72deg) translateZ(8rem);
+}
+
+.carousel__card:nth-child(3) {
+    transform: rotateY(144deg) translateZ(8rem);
+}
+
+.carousel__card:nth-child(4) {
+    transform: rotateY(216deg) translateZ(8rem);
+}
+
+.carousel__card:nth-child(5) {
+    transform: rotateY(288deg) translateZ(8rem);
+}
+
+.carousel__btn {
+    border: none;
+    width: 1.5rem;
+    height: 1rem;
+    margin-top: 13%;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    cursor: pointer;
+    background-color: #fff;
+    color: #fff;
+}
+
+.carousel__btn--back {
+    transform: rotate(90deg);
+    margin-left: 2%;
+}
+
+.carousel__btn--next {
+    transform: rotate(-90deg);
+    margin-right: 2%;
+}
+
+.oval {
+    width: 250px;
+    height: 55px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin: -30% -7%;
+}
+
+.caption__container {
+    display: flex;
+    margin-top: 30%;
+    margin-right: 15%;
+}
+
+.carousel-caption {
+    width: 9rem;
+    margin-top: 10%;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    /* margin-top: 5rem; */
+    padding: 0.3rem 0;
+    color: #dc47a4;
+}
+

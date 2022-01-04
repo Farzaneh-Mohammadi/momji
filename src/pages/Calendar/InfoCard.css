@@ -1,0 +1,45 @@
+
+  .info-card {
+    /* position: absolute; */
+    width: 65%;
+    height: 13rem;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-bottom: -5rem;
+    /* margin: 15% 10%; */
+padding: 0.5rem 1.5rem;
+    background-color: #ffffff;
+    /* border: 3px solid red; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px #f759c2b0;
+  }
+
+  .info-title{
+    font-size: 13px;
+color: #dc47a4;
+  }
+
+
+  .pink-line{
+    width: 95%;
+    height: 0.2px;
+    margin: 4% 5%;
+    background-color: #dc47a4;
+}
+
+
+.info-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-item p{
+    font-size: 12px;
+    padding: 0;
+    margin: 3%;
+}
+
+.edit-icon{
+  height: 1.5rem;
+  margin-top: 3%;
+}

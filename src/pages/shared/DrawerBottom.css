@@ -1,0 +1,157 @@
+/* body{
+  background-color: rgb(128, 204, 240);
+} */
+
+
+.drawer-img-bg {
+    margin-right: 10%;
+    width: 2.7rem;
+    height: 2.7rem;
+    background: linear-gradient(
+        139.38deg,
+        rgba(255, 112, 112, 0.45) 3.98%,
+        rgba(255, 196, 196, 0.45) 45.43%,
+        rgba(255, 216, 216, 0) 91.43%
+      ),
+      #ffacac;
+    box-shadow: 0px 4px 10px 2px rgba(255, 67, 67, 0.2);
+    border-radius: 12px;
+  }
+  
+  .bottom-icon-title {
+    font-family: "IRANSans";
+    font-style: normal;
+    font-size: 12px;
+    margin: 10% 25% 10% 0;
+    /* color: #4e4e4e; */
+    color: #4e4e4e;
+  }
+  
+
+
+    .app-bar-bottom{
+      position: fixed;
+      /* z-index: -1; */
+      /* bottom: 0;
+      left: 0;
+      right: 0; */
+      width: 100%;
+      bottom: 0;
+      /* margin-top: -2rem; */
+      padding-bottom: 3rem;
+      margin-bottom: 2rem;
+      height: 1rem;
+      /* -webkit-mask-box-image: url("../../assets/footer-closed.png"); */
+    }
+
+
+ 
+    
+    .app-bar-bottom:before{
+      position: absolute;
+      z-index: -1;
+      content: '';
+
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      
+      background-color: #ffffff;
+      -webkit-mask-box-image: url("../../assets/footer-closed.png");
+
+      /* box-shadow: 0px -10px 5px rgba(231, 15, 15, 0.911), 0px 0px 40px rgba(255, 154, 154, 0.4); */
+        }
+  
+    
+  
+  
+  
+    .drawer-bottom-icons {
+      /* margin-right: 5%; */
+      width: 50%;
+      height: 50%;
+      margin-top: 0.5rem;
+      filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+    }
+  
+  
+  
+  
+  .drawer-bottombar-icons{
+    display: flex;
+    justify-content: space-around;
+    /* height: 20rem; */
+    margin-top: 2rem;
+    margin-left: 8%;
+    }
+    
+  
+  
+    
+  .d-community,
+  .d-doctor,
+  .d-support,
+  .d-exit {
+    margin-top: 3rem;
+  }
+  
+  
+    .d-community{
+        margin-right: 2rem;
+        margin-left: 3rem;
+        /* margin-top: -10rem; */
+        width: 2rem;
+    }
+  
+    .d-doctor{
+      margin-left: 3rem;
+      /* margin: 50% 15%; */
+      width: 2rem;
+    }
+  
+    .d-support{
+      margin-left: 3rem;
+      width: 2rem;
+   
+    }
+  
+    .d-exit{
+      margin-left: 1rem;
+      width: 2rem;
+    }
+  
+
+
+
+    .top{
+      width: 3rem;
+      margin-top: -0.5rem;
+      /* transition:  transform 1s; */
+      /* transform: rotate(180deg); */
+    }
+
+
+    .top:hover,
+    .top:focus{
+      transform: rotate(180deg) ;
+    }
+
+    .bottom-fill{
+      position: fixed;
+      bottom: 0;
+      background-color: #ffffff;
+      height: 4rem;
+      width: 100%;
+      z-index: -1;
+    }
+  
+
+
+    #DrawerMenu{
+      margin-bottom: 4rem;
+    }
+
+    #DrawerIcon{
+      margin-top: 0;
+    }

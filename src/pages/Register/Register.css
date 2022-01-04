@@ -1,0 +1,211 @@
+.register-contain{
+  background-color: #fff;
+  width: 100%;
+  height: 80vh;
+  font-family: "IRANSans";
+}
+
+.Register {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(#ffc4c4, #ffe9e9);
+  -webkit-mask-box-image: url("../../assets/Header.png");
+}
+
+.Register img {
+  margin-top: 5rem;
+
+}
+
+.register-title {
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  /* margin-right: -180px; */
+  font-family: IRANSans;
+  font-size: 16px;
+  color: #4e4e4e;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+  margin: 2rem auto;
+
+}
+
+
+
+.input-form label {
+  margin-right: -200px;
+  margin-bottom: 0.5rem;
+  color: #4e4e4e;
+}
+
+.input-form label span {
+  color: #dc47a4;
+}
+
+.input-form input {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  height: 30px;
+  width: 350px;
+  margin-left: 100px;
+  background: #ffffff;
+  border: none;
+  color: #dc47a4;
+  box-shadow: 0px 0px 2px rgba(226, 91, 196, 0.25),
+    0px 4px 25px rgba(226, 91, 196, 0.4);
+  border-radius: 25px;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+
+}
+
+.input-form input:focus {
+  border: none;
+  outline: none;
+}
+
+
+.submit-button {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  height: 80px;
+  background: #ffffff;
+  border: none;
+  /* color: rgba(226, 91, 196); */
+  color: #dc47a4;
+  box-shadow: 0px 0px 2px rgba(226, 91, 196, 0.25),
+    0px 4px 25px rgba(226, 91, 196, 0.4);
+  border-radius: 25px;
+  font-family: "IRANSans";
+  font-size: 15px;
+}
+
+
+
+
+
+
+/* -------------------- Media Queries ------------------- */
+
+/* Smart Phones */
+@media (max-width: 500px) {
+  .register-contain {
+
+    height: 95vh;
+    /* overflow: hidden; */
+  
+  }
+
+
+  .Register {
+    width: 100%;
+    height: 40%;
+  }
+
+  .Register img {
+    margin-top: 1rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .register-title {
+    margin: 2rem auto 3rem auto;
+    font-size: 15px;
+  }
+  .input-form label {
+    font-size: 15px;
+    margin-right: -80px;
+  }
+
+  .input {
+    max-width: 300px;
+    max-height: 30px;
+    margin-left: -100px;
+    border: none;
+    outline: none;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .input:hover, 
+.input:focus{
+  border: none;
+  outline: none;
+}
+
+
+}
+
+.submit-button {
+  margin-top: 1rem;
+  margin-bottom: 0;
+
+}
+
+
+/* Tablets */
+@media (min-width: 501px) and (max-width: 768px) {
+  .Register {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .Register img {
+    margin-top: 4rem;
+    height: 21rem;
+  }
+
+  
+ .input-form input{
+  margin-left: -50px;
+}
+
+}
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .Register img {
+    height: 27rem;
+  }
+
+
+  .input-form label{
+    margin-right: -270px;
+  }
+
+ .input-form input{
+   margin-left: -110px;
+ }
+
+
+}
+
+
+/* WideScreen */
+@media (min-width: 1201px) and (max-width: 1441px){
+  .Register {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .Register img {
+    height: 28rem;
+    margin-top: 5rem;
+  }
+
+  .input-form input {
+    height: 55px;
+    width: 500px;
+    margin-left: -130px;
+  }
+
+  .input-form label{
+    margin-right: -320px;
+  }
+
+
+}

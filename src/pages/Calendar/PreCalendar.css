@@ -1,0 +1,170 @@
+
+
+
+.calendar-card{
+    /* position: absolute; */
+width: 75%;
+height: 17rem;
+margin-top: 25%;
+margin-right: 10%;
+/* margin: 25% 10%; */
+padding: 0.5rem;
+background-color: #ffffff;
+/* border: 3px solid red; */
+border-radius: 15px;
+box-shadow: 2px 2px 8px #f759c2b0;
+}
+
+.calendar-header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+
+.header-title{
+    font-size: 12px;
+    color: #dc47a4;
+}
+
+.cal-icon{
+    height: 2rem;
+    margin-top: 2%;
+}
+
+.calendar-numbers{
+    direction: ltr;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #2196F3; */
+    /* padding: 2px; */
+}
+
+
+
+#day1-pink{
+background-color: #ff8d8d;
+opacity: 0.4;
+color: #fff;
+}
+
+#day2-pink{
+    background-color: #ff8d8d;
+opacity: 0.5;
+color: #fff;
+}
+
+#day3-pink{
+    background-color: #ff8d8d;
+opacity: 0.8;
+color: #fff;
+}
+
+#day4-pink{
+    background-color: #ff8d8d;
+opacity: 1;
+color: #fff;
+}
+
+#day5-pink{
+    background-color: #ff8d8d;
+opacity: 0.8;
+color: #fff;
+}
+
+#day6-pink{
+    background-color: #ff8d8d;
+opacity: 0.5;
+color: #fff;
+}
+
+#day7-pink{
+    background-color: #ff8d8d;
+opacity: 0.4;
+color: #fff;
+}
+
+
+
+
+#day1-green{
+    background-color: #05e150;
+    opacity: 0.4;
+    color: #fff;
+    }
+    
+    #day2-green{
+        background-color: #05e150;
+    opacity: 0.5;
+    color: #fff;
+    }
+    
+    #day3-green{
+        background-color: #05e150;
+    opacity: 0.8;
+    color: #fff;
+    }
+    
+    #day4-green{
+        background-color: #05e150;
+    opacity: 1;
+    color: #fff;
+    }
+    
+    #day5-green{
+        background-color: #05e150;
+    opacity: 0.8;
+    color: #fff;
+    }
+    
+    #day6-green{
+        background-color: #05e150;
+    opacity: 0.5;
+    color: #fff;
+    }
+    
+    #day7-green{
+        background-color: #05e150;
+    opacity: 0.4;
+    color: #fff;
+    }
+
+
+
+
+
+.grid-item {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 1.6rem;
+    margin-bottom: 0.6rem;
+    padding: 1px;
+    font-size: 13px;
+    text-align: center;
+    box-shadow:  1px 1px 1px #a5a5a5b0;
+  }
+
+  .calendar-caption{
+      display: flex;
+      justify-content: center;
+      width: 60%;
+      margin: -2% auto;
+  }
+
+  .caption-title{
+    margin-top: 10%;
+    margin-left: 7%;
+    font-size: 13px;
+    color: #dc47a4;
+  }
+
+
+  .settings-icon{
+      height: 1.5rem;
+      margin-top: 10%;
+  }
+
+

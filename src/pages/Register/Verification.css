@@ -1,0 +1,246 @@
+.register-contain{
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  font-family: "IRANSans";;
+  }
+  
+  .verification {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(#ffc4c4, #ffe9e9);
+    -webkit-mask-box-image: url("../../assets/Header.png");
+  }
+  
+  .verification img {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+
+  }
+  
+  .verify-title {
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+    margin-right: -180px;
+    font-size: 16px;
+    color: #4e4e4e;
+  }
+  
+  .input-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    margin: 0.5rem auto;
+  }
+  
+
+  .input-form input {
+    height: 40px;
+    width: 350px;
+    margin-left: 100px;
+    background: #ffffff;
+    border: none;
+    color: #dc47a4;
+    box-shadow: 0px 0px 2px rgba(226, 91, 196, 0.25),
+      0px 4px 25px rgba(226, 91, 196, 0.4);
+    border-radius: 25px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+
+  }
+
+
+
+  .info{
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+  }
+
+  .info p{
+    color: #4e4e4e;
+    font-size: 12px;
+}
+
+  .info span{
+    color: #dc47a4;
+    font-size: 16px;
+  }
+
+
+  .edit-num{
+    display: inline;
+   width: 270px;
+  text-align: center;
+  margin-left: -1rem;
+  color: #4e4e4e;
+  }
+
+  .edit{
+    color: #dc47a4;
+      text-decoration: none;
+  }
+  
+  .submit-button {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+ box-shadow: 0px 0px 2px rgba(226, 91, 196, 0.25),
+      0px 4px 25px rgba(226, 91, 196, 0.4);    height: 60px;
+    background: #ffffff;
+    border: none;
+    color: #dc47a4;
+    box-shadow: 0px 0px 2px rgba(226, 91, 196, 0.25),
+      0px 4px 25px rgba(226, 91, 196, 0.4);
+    border-radius: 25px;
+    font-family: "IRANSans";
+    font-size: 16px;
+  }
+  
+
+
+
+
+
+
+
+  
+
+
+/* -------------------- Media Queries ------------------- */
+
+/* Smart Phones */
+@media (max-width: 500px) {
+  .verification {
+    width: 100%;
+    height:35%;
+  }
+
+  .verification img {
+    margin-top: 1rem;
+    height: 10rem;
+  }
+
+  .verify-title {
+    /* margin: 3rem 0 0.5rem 0; */
+    margin-top: 2rem;
+    margin-right: -25%;
+    font-size: 12px;
+  }
+
+  .input-form label {
+    font-size: 12px;
+    margin-right: -150px;
+  }
+
+  .input-form input {
+    max-width: 250px;
+    max-height: 30px;
+    margin-right: -10%;
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+
+  }
+
+  .info{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: 15px;
+}
+
+.info p{
+  margin-bottom: 0.1rem;
+  font-size: 14px;
+}
+
+
+.info span{
+  margin-top: 0.1rem;
+  font-size: 16px;
+  /* margin-bottom: 1rem; */
+}
+
+
+.edit-num{
+font-size: 13px;
+margin-right: -10%;
+}
+
+
+.submit-button {
+  /* margin-top: .0; */
+  margin-bottom: 3rem;
+  height: 60px;
+  width: 80%;
+  border-radius: 20px;
+  margin-right: 5%;
+
+}
+
+
+}
+
+/* Tablets */
+@media (min-width: 501px) and (max-width: 768px) {
+  .verification {
+    width: 100%;
+    height: 80vh;
+  }
+
+  .verification img {
+    margin-top: 4rem;
+    height: 21rem;
+  }
+
+  /* .input{
+    margin-left: -50px;
+   } */
+
+   .verify-title {
+    margin-right: -100px;
+  }
+
+
+   .input-form input{
+    margin-left: -50px;
+  }
+  
+
+}
+
+/* Normal */
+@media (min-width: 769px) and (max-width: 1200px) {
+  .verification img {
+    height: 27rem;
+  }
+
+  .input-form input {
+    height: 50px;
+    width: 450px;
+    margin-left: -110px;
+  }
+
+  .verify-title {
+    margin-right: -170px;
+  }
+
+
+}
+
+/* WideScreen */
+@media (min-width: 1201px) {
+  .verification {
+    width: 100%;
+    height: 90vh;
+  }
+
+  .verification img {
+    height: 28rem;
+    margin-top: 5rem;
+  }
+
+  .input-form input {
+    height: 55px;
+    width: 500px;
+    margin-left: -130px;
+
+  }
+}

@@ -1,0 +1,80 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+  } */
+  
+  html {
+    box-sizing: border-box;
+  }
+  * {
+    box-sizing: inherit;
+  }
+  
+
+  .fade-in-section {
+    opacity: 0;
+    transform: translateY(5vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1000ms ease-out;
+    will-change: opacity, transform, visibility;
+    background-color: rgb(71, 71, 255);
+    /* background-color: #fff; */
+    padding: 5px 0;
+    margin: 3% 0;
+}
+ 
+  .fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  
+  .fade-container {
+    max-width: 65%;
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: chartreuse;
+
+
+    /* background-color: #fff; */
+    border-radius: 15px;
+
+    height: 20%;
+    overflow: scroll;
+
+
+
+
+
+    position:absolute;
+    z-index:2;
+    right:0; bottom:0; left:0;
+    height:200px; /* adjust it to your needs */
+    background: url(data:image/svg+xml;base64,alotofcodehere);
+    background: -moz-linear-gradient(bottom,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 20%);
+    background: -webkit-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%);
+    background: -o-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%);
+    background: -ms-linear-gradient(bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%);
+    background: linear-gradient(to top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%);
+
+
+  }
+
+
+  
+.each-item{
+    /* background-color: crimson; */
+    background-color: #fff;
+    margin-left: 70%;
+    font-size: 10px;
+    width: 10px;
+}
+
+.bottom-item-line{
+    width: 90%;
+    height: 0.2px;
+    /* margin: 4% 5%; */
+    margin-top: 3px;
+    background-color: #aaaaaa;
+}
